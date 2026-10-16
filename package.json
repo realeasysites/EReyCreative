@@ -1,0 +1,13 @@
+{
+  "name": "erik-reynolds-creative",
+  "version": "1.0.0",
+  "description": "Erik Reynolds Creative: architect + photographer site with inquiry dashboard",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": "20.x" },
+  "dependencies": {
+    "better-sqlite3": "^11.7.0",
+    "express": "^4.21.2",
+    "nodemailer": "^6.9.16"
+  }
+}
